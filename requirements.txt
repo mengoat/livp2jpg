@@ -1,0 +1,4 @@
+pillow-heif
+shutil
+tqdm
+numpy

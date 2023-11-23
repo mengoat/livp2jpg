@@ -59,7 +59,7 @@ def livp_to_jpg(img_item,img_source,livp_to_jpg_dir):
     image = Image.frombytes(
         heif_file.mode,
         heif_file.size,
-        heif_file.data,
+        heif_file.data.tobytes(),
         "raw",
     )
 
